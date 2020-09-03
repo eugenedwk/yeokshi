@@ -2470,9 +2470,9 @@ fieldset:disabled a.btn {
 }
 
 .btn-primary {
-  color: #fff;
-  background-color: #f4623a;
-  border-color: #f4623a;
+  color: #596563;
+  background-color: #e6ebeb;
+  border-color: #e6ebeb;
 }
 .btn-primary:hover {
   color: #fff;
@@ -10007,7 +10007,7 @@ html {
 hr.divider {
   max-width: 3.25rem;
   border-width: 0.2rem;
-  border-color: #f4623a;
+  border-color: #e6ebeb;
 }
 
 hr.light {
