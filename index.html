@@ -45,10 +45,20 @@
                 </div>
                 </div>
             </div>
+            <script>
+                function cb(response) {
+                    document.getElementById('visits').innerText = response.value;
+                }
+                </script>
+                <script async src="https://api.countapi.xyz/hit/www.yeokshi.life/visits?callback=cb"></script>
         </section>
         <!-- Footer-->
         <footer class="bg-light py-5">
-            <div class="container"><div class="small text-center text-muted">Copyright © 2020 - yeokshi</div></div>
+            <div class="container">
+                <div class="small text-center text-muted">Copyright © 2020 - yeokshi</div>
+            <div class="small text-center text-muted" id="visits">... </div>
+            <div class="small text-center text-muted"><p>people are about the pie.</p></div> 
+        </div>
         </footer>
         <!-- Bootstrap core JS-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
