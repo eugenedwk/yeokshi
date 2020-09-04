@@ -10,6 +10,17 @@
  * Copyright 2011-2020 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+
+.bg-overlay {
+  background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("/assets/IMG_8267.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: absolute;
+  color: #fff;
+  size: 100%;
+}
+
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -6105,7 +6116,7 @@ button.bg-primary:focus {
 }
 
 .bg-secondary {
-  background-color: #6c757d !important;
+  background-color: #B5C5C6 !important;
 }
 
 a.bg-secondary:hover, a.bg-secondary:focus,
@@ -6125,7 +6136,7 @@ button.bg-success:focus {
 }
 
 .bg-info {
-  background-color: #17a2b8 !important;
+  background-color: #ccbead !important;
 }
 
 a.bg-info:hover, a.bg-info:focus,
@@ -6277,8 +6288,10 @@ button.bg-dark:focus {
 }
 
 .rounded-bottom {
-  border-bottom-right-radius: 0.25rem !important;
-  border-bottom-left-radius: 0.25rem !important;
+  border-top-right-radius: 60rem !important;
+  border-top-left-radius: 60rem !important;
+  border-bottom-right-radius: 20rem !important;
+  border-bottom-left-radius: 2rem !important;
 }
 
 .rounded-left {
@@ -6294,8 +6307,14 @@ button.bg-dark:focus {
   border-radius: 50% !important;
 }
 
+.rounded-pill-top {
+  border-top-left-radius: 40rem !important;
+  border-top-right-radius: 40rem !important;
+}
+
 .rounded-pill {
   border-radius: 50rem !important;
+
 }
 
 .rounded-0 {
@@ -10096,7 +10115,6 @@ hr.light {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
-  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../assets/img/bg-masthead.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
