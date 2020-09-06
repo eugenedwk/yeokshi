@@ -16,6 +16,8 @@ var quotes = [
   'Everyone else might be acting weird but you\'re still in it',
   'Who else could be this awesome?',
   'As expected',
+  'Sometimes, it really be like that.',
+  'Would you like to hear a fact about pies?'
 ];
 
 function newQuote() {
