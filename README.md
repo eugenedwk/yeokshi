@@ -1,3 +1,0 @@
-# Yeokshi
-
-what the heeeeell am I doing...
