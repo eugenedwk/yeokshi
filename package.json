@@ -2,7 +2,7 @@
   "name": "yeokshi",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://www.yeokshi.life",
+  "homepage": "http://eugenedwk.github.io/yeokshi",
   "dependencies": {
     "@mui/material": "^5.2.8",
     "@mui/styled-engine-sc": "^5.1.0",
